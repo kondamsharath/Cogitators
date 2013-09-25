@@ -10,6 +10,7 @@
     "jade": "0.35.0",
     "jshtml-express": "0.0.1",
     "ejs": "0.8.4",
-    "express-partials": "0.1.1"
+    "express-partials": "0.1.1",
+    "cheerio":"0.12.2"
   }
 }

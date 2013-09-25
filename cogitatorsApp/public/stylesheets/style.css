@@ -5,6 +5,11 @@ body {
 a{
     text-decoration: none;
 }
+.atext-active-color {
+    color: #fdfeff;
+     font-size: 18px;
+    font-weight: bold;
+}
 header {
     width: 90%;
     margin:auto;
@@ -43,50 +48,34 @@ header {
 }
 #header-second-cell{
     width: 12%;
-    vertical-align: middle;    
-    background-repeat:no-repeat; 
-    background-position: 40% -7px;     
+    vertical-align: middle;   
+       
 }
-#header-second-cell a{      
-    color: #159BF1;
-    font-size: 18px;
-    font-weight: bold;
+.header-ribbon {
+    background-repeat:no-repeat; 
+    background-position: 40% -7px;
+    background-image: url(/images/btn_ribbon_header.png);  
 }
 #header-third-cell{
     width: 12%;
     vertical-align: middle;    
 }
-#header-third-cell a{         
-    color: #159bf1;
-    font-size: 18px;
-    font-weight: bold;
-}
 #header-fourth-cell{
     width: 12%;
     vertical-align: middle;    
-}
-#header-fourth-cell a{       
-    color: #159bf1;
-    font-size: 18px;
-    font-weight: bold;
 }
 #header-fifth-cell{
     width: 12%;
     vertical-align: middle;     
 }
-#header-fifth-cell a{         
-    color: #159bf1;
-    font-size: 18px;
-    font-weight: bold;
-}
 #header-sixth-cell{
     width: 12%;
      vertical-align: middle;   
 }
-#header-sixth-cell a{    
-    color: #159bf1;
+.header-aElement {
+  color: #159bf1;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold;   
 }
 /*header styles ends*/
 
